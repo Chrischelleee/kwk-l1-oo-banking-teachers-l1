@@ -50,4 +50,9 @@ class Transfer
     self.status = "rejected"
     "Transaction rejected. Please check your account balance."
   end
+
+  def status=(status)
+    @status = "complete"
+  end
+
 end
