@@ -55,4 +55,8 @@ class Transfer
     @status = "complete"
   end
 
+  def reject=(reject)
+    @reject = "rejected"
+  end
+
 end
